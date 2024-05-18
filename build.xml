@@ -1,0 +1,25 @@
+<project default="run">
+
+    <target name="clean">
+        <delete dir="build"/>
+    </target>
+
+    <target name="compile" depends="clean">
+        <mkdir dir="build/classes"/>
+        <javac srcdir="src" destdir="build/classes"/>
+    </target>
+
+    <target name="jar" depends="compile">
+        <mkdir dir="build/jar"/>
+        <jar destfile="build/jar/Ludogame.jar" basedir="build/classes">
+            <manifest>
+                <attribute name="Main-Class" value="oata.GameScreen"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="run" depends="jar">
+        <java jar="build/jar/Ludogame.jar" fork="true"/>
+    </target>
+
+</project>
