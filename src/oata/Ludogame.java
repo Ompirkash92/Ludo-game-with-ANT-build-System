@@ -3,7 +3,7 @@ package oata;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-
+// best use of 2d graphics 
 // Player class to store player information
 class Player { 
     int height,width,status,coin;
