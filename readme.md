@@ -38,7 +38,8 @@ Contributors
 
 - Om Pirkash Gunesani 2k23/CSE/120
 - Maryam Khamun 2k23/CSE/77
-Thanks to Om Pirkash 
+- Thanks to Om Pirkash 
+
 Acknowledgments
 
 - Thanks to Maryam Khamun Roll number 2k23/CSE/77
